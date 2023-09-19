@@ -12,7 +12,7 @@ const Nearbyjobs = () => {
   
   const {data, isLoading, error} = useFetch
   ("search", 
-    {query: "React developer", 
+    {query: "React developer in Sweden", 
     num_pages: 1
   })
   

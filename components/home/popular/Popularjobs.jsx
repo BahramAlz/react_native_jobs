@@ -13,11 +13,9 @@ const Popularjobs = () => {
   
   const {data, isLoading, error} = useFetch
   ("search", 
-    {query: "React developer", 
+    {query: "React developer in Sweden", 
     num_pages: 1
   })
-
-  console.log(data);
   
   return (
     <View style={styles.container}>
